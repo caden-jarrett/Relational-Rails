@@ -255,7 +255,7 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/app/models/lead_actor.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/set_list/app/models/movie.rb": {
         "lines": [
           1,
           1,
@@ -270,14 +270,15 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/app/models/movie.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/set_list/app/models/lead_actor.rb": {
         "lines": [
+          1,
           1,
           1,
           null
         ]
       }
     },
-    "timestamp": 1652372504
+    "timestamp": 1652382095
   }
 }

@@ -1,3 +1,4 @@
 class Movie < ApplicationRecord
-belongs_to :lead_actor, dependent: :destroy
+  validates_presence_of :name
+  belongs_to :lead_actor, dependent: :destroy
 end
