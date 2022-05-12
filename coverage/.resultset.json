@@ -270,6 +270,22 @@
           null
         ]
       },
+      "/Users/cadenjarrett/mod_2_work/projects/set_list/spec/models/movie_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
       "/Users/cadenjarrett/mod_2_work/projects/set_list/app/models/movie.rb": {
         "lines": [
           1,
@@ -277,28 +293,8 @@
           1,
           null
         ]
-      },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/app/controllers/movies_controller.rb": {
-        "lines": [
-          1,
-          1,
-          0,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1652384425
+    "timestamp": 1652385818
   }
 }

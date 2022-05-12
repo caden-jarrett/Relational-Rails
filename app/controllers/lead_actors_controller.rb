@@ -4,6 +4,6 @@ class LeadActorsController < ApplicationController
   end
 
   def show
-    @lead_actors = LeadActor.find(params[:id])
+    @lead_actor = LeadActor.find(params[:id])
   end
 end
