@@ -1,11 +1,13 @@
 <html>
   <head>
+    <a href="/">Welcome/Navigation</a>
     <h1>Lead Actors</h1>
   </head>
 
   <body>
-    <% @lead_actors.each do |actor| %>
-      <p><%= actor.name %></p>
+    <% @sorted_lead_actors.each do |actor| %>
+      <h3><%= link_to actor.name, "/lead_actors/#{actor.id}/movies" %></h3>
+      <p>Created At: <%= actor.created_at %></p>
     <% end %>
   </body>
 </html>

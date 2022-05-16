@@ -1,11 +1,13 @@
 <html>
   <head>
+    <a href="/">Welcome/Navigation</a>
+
     <h1>Movies Index</h1>
   </head>
 
   <body>
     <% @movies.each do |movie| %>
-      <p><%= movie.name %></p>
+      <h3><%= link_to movie.name, "/movies/#{movie.id}" %></h3>
     <% end %>
   </body>
 </html>

@@ -7,10 +7,7 @@
 
   <body>
     <% @lead_actor_children.each do |movie| %>
-      <h1><%= movie.name %></h1>
-      <p>Rating out of 100(Rotten Tomatoes): <%= movie.rating %></p>
-      <p>Over Two Hours?: <%= movie.over_two_hours %></p>
-      <p>Lead Actor's ID: <%= movie.lead_actor_id %></p>
+      <h2><%= link_to movie.name, "/movies/#{movie.id}" %></h2>
     <% end %>
   </body>
 </html>
