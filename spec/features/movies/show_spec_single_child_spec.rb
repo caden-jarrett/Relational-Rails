@@ -6,7 +6,7 @@ RSpec.describe 'the movie index page', type: :feature do
     movie = Movie.create!(name: "Harry Potter: The Sorcerors Stone", rating: 88, over_two_hours: true, lead_actor_id: lead_actor.id)
 
     visit "/movies/#{movie.id}"
-
+    binding.pry
     expect(page).to have_content(movie.name)
     expect(page).to have_content("Movie Rating(Rotten Tomatoes): #{movie.rating}")
   end

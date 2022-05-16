@@ -6,4 +6,9 @@ class LeadActorsController < ApplicationController
   def show
     @lead_actor = LeadActor.find(params[:id])
   end
+
+  def children
+    @lead_actor = LeadActor.find(params[:id])
+    @lead_actor_children = @lead_actor.movies
+  end
 end

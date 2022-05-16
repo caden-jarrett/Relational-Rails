@@ -1,0 +1,5 @@
+<h1><%= @lead_actor.name %> Movies</h1>
+<% @lead_actor_children.each do |movie| %>
+  <h1><%= movie.name %></h1>
+  <p>Rating out of 100(Rotten Tomatoes): <%= movie.rating %></p>
+<% end %>

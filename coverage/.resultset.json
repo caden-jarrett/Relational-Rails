@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/environment.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -10,7 +10,7 @@
           1
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/application.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/application.rb": {
         "lines": [
           1,
           null,
@@ -47,7 +47,7 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/boot.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -55,7 +55,7 @@
           1
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/environments/test.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -105,7 +105,7 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/initializers/application_controller_renderer.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -117,7 +117,7 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/initializers/assets.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/initializers/assets.rb": {
         "lines": [
           null,
           null,
@@ -135,7 +135,7 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/initializers/backtrace_silencers.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -146,7 +146,7 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/initializers/content_security_policy.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/initializers/content_security_policy.rb": {
         "lines": [
           null,
           null,
@@ -175,7 +175,7 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/initializers/cookies_serializer.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/initializers/cookies_serializer.rb": {
         "lines": [
           null,
           null,
@@ -184,7 +184,7 @@
           1
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/initializers/filter_parameter_logging.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -192,7 +192,7 @@
           1
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/initializers/inflections.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -212,7 +212,7 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/initializers/mime_types.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/initializers/mime_types.rb": {
         "lines": [
           null,
           null,
@@ -220,7 +220,7 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/initializers/wrap_parameters.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -238,10 +238,11 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/config/routes.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/config/routes.rb": {
         "lines": [
           1,
           null,
+          1,
           1,
           1,
           1,
@@ -249,56 +250,40 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/app/helpers/application_helper.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/app/helpers/application_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/spec/features/lead_actors/show_spec_single_child_spec.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/spec/features/lead_actors/parent_children_index_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          null,
+          1,
+          1,
           1,
           1,
           null,
           1,
           1,
-          null,
-          null
-        ]
-      },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/spec/features/movies/movies_index_spec.rb": {
-        "lines": [
           1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
           1,
           1,
           null,
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/spec/features/movies/show_spec_single_child_spec.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/spec/features/lead_actors/show_spec_single_child_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          1,
-          1,
           null,
+          1,
           1,
           null,
           1,
@@ -307,46 +292,48 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/spec/models/lead_actor_spec.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/spec/features/movies/movies_index_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          2,
-          null,
           null,
           1,
-          2,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
           null,
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/app/models/lead_actor.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/spec/models/movie_spec.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/spec/features/movies/show_spec_single_child_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          2,
-          2,
-          2,
-          2,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/spec/models/lead_actor_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
           2,
           null,
           null,
@@ -356,7 +343,7 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/app/models/movie.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/app/models/lead_actor.rb": {
         "lines": [
           1,
           1,
@@ -364,7 +351,41 @@
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/app/controllers/lead_actors_controller.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/spec/models/movie_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/app/models/movie.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/app/controllers/lead_actors_controller.rb": {
         "lines": [
           1,
           1,
@@ -374,16 +395,21 @@
           1,
           1,
           null,
+          null,
+          1,
+          1,
+          1,
+          null,
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/app/controllers/application_controller.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/app/controllers/application_controller.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/Users/cadenjarrett/mod_2_work/projects/set_list/app/controllers/movies_controller.rb": {
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/app/controllers/movies_controller.rb": {
         "lines": [
           1,
           1,
@@ -397,6 +423,6 @@
         ]
       }
     },
-    "timestamp": 1652389707
+    "timestamp": 1652709278
   }
 }
