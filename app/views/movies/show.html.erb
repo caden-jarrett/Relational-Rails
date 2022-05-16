@@ -1,5 +1,11 @@
-<a href="/movies">Movies Index</a>
+<html>
+  <head>
+    <h1><%= @movie.name %></h1>
+  </head>
 
-<h1><%= @movie.name %></h1>
-
-<p>Movie Rating(Rotten Tomatoes): <%= @movie.rating %></p>
+  <body>
+    <p>Movie Rating(Rotten Tomatoes): <%= @movie.rating %></p>
+    <p>Over Two Hours?: <%= @movie.over_two_hours %></p>
+    <p>Lead Actor's ID: <%= @movie.lead_actor_id %></p>
+  </body>
+</html>

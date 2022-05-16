@@ -9,11 +9,9 @@ RSpec.describe 'the lead actors index page', type: :feature do
 
     visit "/lead_actors"
 
+    expect(page).to have_content("Lead Actors")
     expect(page).to have_content(lead_actor_1.name)
-    expect(page).to have_content("Has received an Oscar: #{lead_actor_1.oscar}")
     expect(page).to have_content(lead_actor_2.name)
-    expect(page).to have_content("Has received an Oscar: #{lead_actor_2.oscar}")
     expect(page).to have_content(lead_actor_3.name)
-    expect(page).to have_content("Has received an Oscar: #{lead_actor_3.oscar}")
   end
 end
