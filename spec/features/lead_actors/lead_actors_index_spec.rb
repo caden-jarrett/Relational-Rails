@@ -32,12 +32,30 @@ RSpec.describe 'the lead actors index page', type: :feature do
 
   end
 
-  it 'links to each lead actor to their show page' do
+  describe "links" do
+    it 'links to each lead actor to their show page' do
 
-    visit "/lead_actors"
+      visit "/lead_actors"
 
-    click_on @lead_actor_1.name
+      click_on @lead_actor_1.name
 
-    expect(current_path). to eq("/lead_actors/#{@lead_actor_1.id}")
+      expect(current_path). to eq("/lead_actors/#{@lead_actor_1.id}")
+    end
+
+    it "has a parent index link at the top of the page" do
+      visit "/lead_actors"
+
+      click_on "Lead Actors Index"
+
+      expect(current_path). to eq("/lead_actors")
+    end
+
+    it "has a child index link at the top of the page" do
+      visit "/lead_actors"
+
+      click_on "Movie Index"
+
+      expect(current_path). to eq("/movies")
+    end
   end
 end
