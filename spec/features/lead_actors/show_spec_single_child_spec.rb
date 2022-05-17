@@ -1,7 +1,7 @@
 require "rails_helper"
 
 RSpec.describe 'the lead actors index page', type: :feature do
-  it 'displays the lead actors name and if they have a Oscar' do
+  it 'displays the lead actors name and their information' do
 
     lead_actor = LeadActor.create!(name: "Daniel Radcliffe", oscar: false,
                               age: 12,)
@@ -12,7 +12,10 @@ RSpec.describe 'the lead actors index page', type: :feature do
 
     visit "/lead_actors/#{lead_actor.id}"
 
-    expect(page).to have_content(lead_actor.name)
-    expect(page).to have_content("Has received an Oscar: #{lead_actor.oscar}")
+    expect(page).to have_content("#{lead_actor.name} Movie's")
+    expect(page).to have_content("Count of #{lead_actor.name} Movie's: #{lead_actor.movies.count}")
+    expect(page).to have_content("Has Received a Oscar: #{lead_actor.oscar}")
+    expect(page).to have_content("Current age: #{lead_actor.age}")
+    expect(page).to have_content("Lead Actor ID: #{lead_actor.id}")
   end
 end

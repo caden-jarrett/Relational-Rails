@@ -1,7 +1,6 @@
 class LeadActorsController < ApplicationController
   def index
-    @lead_actors = LeadActor.all
-    @sorted_lead_actors = @lead_actors.order(created_at: :desc)
+    @lead_actors = LeadActor.sorted_by_creation
   end
 
   def show
