@@ -25,11 +25,29 @@ RSpec.describe 'the movies index page', type: :feature do
     expect(page).to have_content(@movie_2.name)
   end
 
-  it 'links to each movies show page' do
-    visit "/movies"
+  describe "links" do
+    it 'links to each movies show page' do
+      visit "/movies"
 
-    click_on @movie_1.name
+      click_on @movie_1.name
 
-    expect(current_path). to eq("/movies/#{@movie_1.id}")
+      expect(current_path). to eq("/movies/#{@movie_1.id}")
+    end
+
+    it "to movie index page" do
+      visit "/lead_actors"
+
+      click_on "Lead Actors Index"
+
+      expect(current_path). to eq("/lead_actors")
+    end
+
+    it "a child index link at the top of the page" do
+      visit "/lead_actors"
+
+      click_on "Movie Index"
+
+      expect(current_path). to eq("/movies")
+    end
   end
 end

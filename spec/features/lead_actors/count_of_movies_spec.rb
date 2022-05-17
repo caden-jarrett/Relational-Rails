@@ -18,6 +18,7 @@ RSpec.describe 'the lead actors index page', type: :feature do
   end
 
   it "displays the ammount of movies each lead actor has in the db" do
+
     visit "/lead_actors/#{@lead_actor_1.id}"
 
     expect(page).to have_content("#{@lead_actor_1.name} Movie's")
@@ -25,6 +26,34 @@ RSpec.describe 'the lead actors index page', type: :feature do
     expect(page).to have_content("Has Received a Oscar: #{@lead_actor_1.oscar}")
     expect(page).to have_content("Current age: #{@lead_actor_1.age}")
     expect(page).to have_content("Lead Actor ID: #{@lead_actor_1.id}")
+  end
 
+  describe "links" do
+    it 'links to each lead actor to their show page' do
+
+      visit "/lead_actors/#{@lead_actor_1.id}"
+
+      click_on @lead_actor_1.name
+
+      expect(current_path). to eq("/lead_actors/#{@lead_actor_1.id}/movies")
+    end
+
+    it "has a parent index link at the top of the page" do
+
+      visit "/lead_actors"
+
+      click_on "Lead Actors Index"
+
+      expect(current_path). to eq("/lead_actors")
+    end
+
+    it "has a child index link at the top of the page" do
+
+      visit "/lead_actors"
+
+      click_on "Movie Index"
+
+      expect(current_path). to eq("/movies")
+    end
   end
 end

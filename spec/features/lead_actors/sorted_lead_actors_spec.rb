@@ -7,6 +7,7 @@ RSpec.describe 'the lead actors index page', type: :feature do
     @lead_actor_2 = LeadActor.create!(name: "Matt Damon", oscar: true, age: 51, created_at: 1.days.ago)
     @lead_actor_3 = LeadActor.create!(name: "Adam Sandler", oscar: false, age: 55, created_at: 2.days.ago)
   end
+  
   it "displays actors by the time that they were created" do
 
     visit "/lead_actors"
