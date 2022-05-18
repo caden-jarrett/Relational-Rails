@@ -15,7 +15,7 @@ require 'rails_helper'
 
 RSpec.describe 'New Lead Actor', type: :feature do
   describe 'as a visitor' do
-    describe 'when i visit the new artist for, by clicking a link on the index' do
+    describe 'when i visit the new artist form, by clicking a link on the index' do
       it 'links to the new page from the lead actors index' do
         visit '/lead_actors'
 

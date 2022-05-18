@@ -251,45 +251,14 @@
           1,
           1,
           1,
+          1,
+          1,
           null,
           1,
           null
         ]
       },
       "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/app/helpers/application_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/app/controllers/lead_actors_controller.rb": {
-        "lines": [
-          1,
-          1,
-          2,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/app/controllers/application_controller.rb": {
         "lines": [
           1,
           null
@@ -316,8 +285,62 @@
           1,
           null
         ]
+      },
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/app/controllers/lead_actors_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/cadenjarrett/mod_2_work/projects/Relational-Rails/app/models/movie.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1652823105
+    "timestamp": 1652834187
   }
 }

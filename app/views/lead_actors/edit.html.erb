@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <a href="/lead_actors">Lead Actors Index</a>
+    <a href="/movies">Movie Index</a>
+    <h1>Edit <%= @lead_actor.name %></h1>
+  </head>
+
+  <body>
+    <div>
+      <%= form_with url: "/lead_actors/#{@lead_actor.id}", method: :patch, local: true do |form| %>
+        <div><%= form.label :name %></div>
+        <div><%= form.text_field :name %></div>
+        <div><%= form.label :oscar %> </div>
+        <div><%= form.select :oscar, options_for_select([true, false]), class: 'form-control' %></div>
+        <div><%= form.label :age %></div>
+        <div><%= form.text_field :age %></div>
+        <div><%= form.submit "Update #{@lead_actor.name}"  %></div>
+      <% end %>
+    </div>
+  </body>
