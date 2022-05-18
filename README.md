@@ -1,5 +1,6 @@
 # README
 
+![DB](images/schema.png "Relational_Rails_DB")
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
