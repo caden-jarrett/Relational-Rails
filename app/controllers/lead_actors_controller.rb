@@ -10,7 +10,7 @@ class LeadActorsController < ApplicationController
     LeadActor.create(lead_actor_params)
     redirect_to "/lead_actors"
   end
-  
+
   def edit
     @lead_actor = LeadActor.find(params[:id])
   end

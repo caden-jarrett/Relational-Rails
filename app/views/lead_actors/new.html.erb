@@ -11,7 +11,8 @@
         <div><%= form.label :name %></div>
         <div><%= form.text_field :name %></div>
         <div><%= form.label :oscar %> (true or false)</div>
-        <div><%= form.select :oscar, options_for_select([true, false]), class: 'form-control' %></div>
+        <div><%= form.select :oscar, options_for_select([true, false]),
+           class: 'form-control' %></div>
         <div><%= form.label :age %></div>
         <div><%= form.text_field :age %></div>
         <div><%= form.submit 'Create Lead Actor' %></div>

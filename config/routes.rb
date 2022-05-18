@@ -12,5 +12,8 @@ Rails.application.routes.draw do
   get '/lead_actors/:id', to: 'lead_actors#show'
   patch '/lead_actors/:id', to: 'lead_actors#update'
 
+  get '/lead_actors/:id/movies/new', to: 'lead_actor_movies#new'
+  post '/lead_actors/:id/movies', to: 'lead_actor_movies#create'
+
   get '/lead_actors/:id/movies', to: 'lead_actor_movies#index'
 end

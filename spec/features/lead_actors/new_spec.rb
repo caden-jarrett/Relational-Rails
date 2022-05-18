@@ -24,7 +24,7 @@ RSpec.describe 'New Lead Actor', type: :feature do
         expect(current_path).to eq('/lead_actors/new')
       end
 
-      it 'and can create a new artist' do
+      it 'and can create a new lead actor' do
         visit '/lead_actors/new'
 
         fill_in('Name', with: 'Tom Hardy')
