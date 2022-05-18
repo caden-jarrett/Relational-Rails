@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <a href="/lead_actors">Lead Actors Index</a>
+    <a href="/movies">Movie Index</a>
+    <h1>Edit <%= @movie.name %></h1>
+  </head>
+
+  <body>
+    <div>
+      <%= form_with url: "/movies/#{@movie.id}", method: :post, local: true do |form| %>
+        <div><%= form.label :name %></div>
+        <div><%= form.text_field :name %></div>
+        <div><%= form.label :rating %></div>
+        <div><%= form.text_field :rating %></div>
+        <div><%= form.label :over_two_hours %> (true or false)</div>
+        <div><%= form.select :over_two_hours, options_for_select([true, false]), class: 'form-control' %></div>
+        <div><%= form.submit "Update #{@movie.name}" %></div>
+      <% end %>
+    </div>
+  </body>

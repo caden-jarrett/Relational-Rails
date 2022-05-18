@@ -1,5 +1,13 @@
-<h1>Movies</h1>
-<% @movies.each do |movie| %>
-  <h1><%= movie.name %></h1>
-  <p>Rating out of 100(Rotten Tomatoes): <%= movie.rating %></p>
-<% end %>
+<html>
+  <head>
+    <a href="/lead_actors">Lead Actors Index</a>
+    <a href="/movies">Movie Index</a>
+    <h1>Movies Index</h1>
+  </head>
+
+  <body>
+    <% @movies.each do |movie| %>
+      <h3><%= link_to movie.name, "/movies/#{movie.id}" %></h3>
+    <% end %>
+  </body>
+</html>

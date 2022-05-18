@@ -1,5 +1,24 @@
-<a href="/lead_actors">Lead Actors Index</a>
+<html>
+  <head>
+    <a href="/lead_actors">Lead Actors Index</a>
+    <a href="/movies">Movie Index</a>
+    <h1><%= link_to @lead_actor.name,
+    "/lead_actors/#{@lead_actor.id}/movies" %> Movie's</h1>
+  </head>
 
-<h1><%= @lead_actor.name %></h1>
+  <body>
 
-<p>Has received an Oscar: <%= @lead_actor.oscar %></p>
+    <div>
+      <h3> Count of <%= @lead_actor.name %> Movie's: <%= @lead_actor.movies.count(:id) %>
+    </div>
+    <div>
+      <p1> Has Received a Oscar: <%= @lead_actor.oscar %></p1>
+    </div>
+    <div>
+      <p2> Current age: <%= @lead_actor.age %></p2>
+    </div>
+    <div>
+      <p3> Lead Actor ID: <%= @lead_actor.id %></p3>
+    </div>
+  </body>
+</html>

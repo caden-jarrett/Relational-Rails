@@ -1,5 +1,16 @@
-<h1>Lead Actors</h1>
-<% @lead_actors.each do |actor| %>
-  <h1><%= actor.name %></h1>
-  <p>Has received an Oscar: <%= actor.oscar %></p>
-<% end %>
+<html>
+  <head>
+    <a href="/lead_actors">Lead Actors Index</a>
+    <a href="/movies">Movie Index</a>
+    <h1>Lead Actors</h1>
+  </head>
+
+  <body>
+    <% @lead_actors.each do |actor| %>
+      <h3><%= link_to actor.name, "/lead_actors/#{actor.id}" %></h3>
+      <p>Created At: <%= actor.created_at %></p>
+      <div><%= link_to "Edit #{actor.name}", "/lead_actors/#{actor.id}/edit" %></div>
+    <% end %>
+    <div><a href="/lead_actors/new"> New Lead Actor </a></div>
+  </body>
+</html>

@@ -1,5 +1,14 @@
-<a href="/movies">Movies Index</a>
+<html>
+  <head>
+    <a href = "/">Welcome/Navigation</a>
 
-<h1><%= @movie.name %></h1>
+    <h1><%= @movie.name %></h1>
+  </head>
 
-<p>Movie Rating(Rotten Tomatoes): <%= @movie.rating %></p>
+  <body>
+    <p>Movie Rating(Rotten Tomatoes): <%= @movie.rating %></p>
+    <p>Over Two Hours?: <%= @movie.over_two_hours %></p>
+    <p>Lead Actor's ID: <%= @movie.lead_actor_id %></p>
+    <div><p2><%= link_to "Edit #{@movie.name}", "/movies/#{@movie.id}/edit" %><p2></div>
+  </body>
+</html>

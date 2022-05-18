@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <a href="/lead_actors">Lead Actors Index</a>
+    <a href="/movies">Movie Index</a>
+    <h1><%= @lead_actor.name %> Movie's</h1>
+  </head>
+
+  <body>
+    <% @lead_actor_children.each do |movie| %>
+      <div>------------------------</div>
+      <div><h2><%= link_to movie.name, "/movies/#{movie.id}" %><h2></div>
+    <% end %>
+    <div>------------------------</div>
+    <p1><%= link_to "New #{@lead_actor.name} Movie", "/lead_actors/#{@lead_actor.id}/movies/new" %></p1>
+  </body>
+</html>
