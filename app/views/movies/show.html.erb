@@ -9,5 +9,6 @@
     <p>Movie Rating(Rotten Tomatoes): <%= @movie.rating %></p>
     <p>Over Two Hours?: <%= @movie.over_two_hours %></p>
     <p>Lead Actor's ID: <%= @movie.lead_actor_id %></p>
+    <div><p2><%= link_to "Edit #{@movie.name}", "/movies/#{@movie.id}/edit" %><p2></div>
   </body>
 </html>

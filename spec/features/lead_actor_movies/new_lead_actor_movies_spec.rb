@@ -40,9 +40,9 @@ RSpec.describe 'Create child movie for lead actor', type: :feature do
         fill_in('Name', with: 'Godzilla')
         fill_in('Rating', with: '44')
         select "true", :from => "Over two hours"
-        # save_and_open_page
+
         click_button 'Create Movie'
-        save_and_open_page
+
         expect(current_path).to eq("/movies")
         expect(page).to have_content("Godzilla")
       end

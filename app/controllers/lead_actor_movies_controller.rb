@@ -14,6 +14,16 @@ class LeadActorMoviesController < ApplicationController
     redirect_to "/movies"
   end
 
+  def edit
+    @movie = Movie.find(params[:id])
+  end
+
+  def update
+    movie = Movie.find(params[:id])
+    movie.update(movie_params)
+    redirect_to "/movies/#{movie.id}"
+  end
+
 private
   def movie_params
     params.permit(:name, :rating, :over_two_hours)

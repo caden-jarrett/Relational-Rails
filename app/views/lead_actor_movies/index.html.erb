@@ -7,7 +7,8 @@
 
   <body>
     <% @lead_actor_children.each do |movie| %>
-      <div><p2><%= link_to movie.name, "/movies/#{movie.id}" %><p2></div>
+      <div>------------------------</div>
+      <div><h2><%= link_to movie.name, "/movies/#{movie.id}" %><h2></div>
     <% end %>
     <div>------------------------</div>
     <p1><%= link_to "New #{@lead_actor.name} Movie", "/lead_actors/#{@lead_actor.id}/movies/new" %></p1>
